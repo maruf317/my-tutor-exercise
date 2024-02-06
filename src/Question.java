@@ -1,6 +1,7 @@
 import java.util.Map;
 
 public class Question {
+
     private Map<Integer, Integer> answerPointMap;
     private Integer id;
 

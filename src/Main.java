@@ -2,8 +2,6 @@ import java.util.*;
 
 public class Main {
 
-    public Map<Integer, TutorInfo> tutorMap = new HashMap<>();
-
     public static void main(String[] args) {
         System.out.println("Running tests...\n");
         runTests();
