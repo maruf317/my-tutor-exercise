@@ -15,6 +15,8 @@ The program is composed of 3 classes
 
 ### How To Run
 
+The ```Main.java``` file setups up some test cases and logs the results to the console.
+
 #### From Terminal
 
 * Navigate to the src/ directory.
