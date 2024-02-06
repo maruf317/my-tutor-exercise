@@ -13,9 +13,9 @@ The program is composed of 3 classes
 #### QuestionnaireManager
 * Reponsible for handling submissions, calculating the scores, and maintaining the scores of every tutor.
 
-### How To Run
+The ```Main.java``` file sets up up some test cases and logs the results to the console.
 
-The ```Main.java``` file setups up some test cases and logs the results to the console.
+### How To Run
 
 #### From Terminal
 
