@@ -26,7 +26,7 @@ public class Main {
         calcScore_submissionContainsOnlySingleSelectAnswer_correctResult();
 
         // 6 -
-        calcScore_multipleSubmissions_getLatestScore();
+        calcScore_multipleSubmissions_returnsLatestScore();
 
     }
 
@@ -77,7 +77,7 @@ public class Main {
         System.out.printf("Expected 2, got %d\n\n", result);
     }
 
-    private static void calcScore_multipleSubmissions_getLatestScore() {
+    private static void calcScore_multipleSubmissions_returnsLatestScore() {
         int tutorId = 5;
         Map<Question, Set<Integer>> submission = setupSingleSelectAnswerSubmission();
         questionnaireManager.processSubmission(tutorId, submission);
